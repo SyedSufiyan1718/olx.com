@@ -1,0 +1,99 @@
+header {
+    width: 100%;
+    border-bottom: 1px solid rgb(199, 199, 199);
+    padding: 24px 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.logo-div,
+.input-div {
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+}
+
+.logo img {
+    width: 65px;
+    cursor: pointer;
+}
+
+.items {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+}
+
+.items img {
+    width: 50px;
+    background-color: #DCE2E3;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.items p {
+    color: #002F34;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.location input {
+    width: 36rem;
+    padding: 10px 20px;
+    font-size: 2rem;
+    border-radius: 4px;
+    border: 1px solid rgb(198, 197, 197);
+    outline: none;
+}
+
+.location input::placeholder {
+    color: black;
+}
+
+.location input:focus {
+    border: 1px solid rgb(0, 143, 210);
+}
+
+.search input {
+    width: 70rem;
+    padding: 10px 20px;
+    font-size: 2rem;
+    border-radius: 4px;
+    border: 1px solid rgb(198, 197, 197);
+    outline: none;
+}
+
+.search input:focus {
+    border: 1px solid rgb(0, 143, 210);
+}
+
+.buttons {
+    display: flex;
+    gap: 4rem;
+}
+
+.login-btn {
+    border: none;
+    background-color: transparent;
+    font-size: 1.8rem;
+    border-bottom: 2px solid #002f34;
+    color: #002f34;
+    letter-spacing: normal;
+    font-weight: 800;
+}
+
+.sell-btn {
+    border-right: 5px solid rgb(11, 179, 201);
+    border-top: 5px solid yellow;
+    border-left: 5px solid rgb(0, 132, 255);
+    border-bottom: 5px solid rgb(255, 145, 0);
+    border-radius: 20px;
+    padding: 7px 30px;
+    background-color: transparent;
+    font-size: 1.8rem;
+    color: #002f34;
+    letter-spacing: normal;
+    font-weight: 700;
+}
