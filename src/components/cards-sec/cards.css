@@ -1,6 +1,6 @@
 .card-sec {
     width: 100%;
-    padding: 24px 150px;
+    padding: 24px 130px;
     display: flex;
     flex-direction: column;
     gap: 2.6rem;
@@ -12,8 +12,9 @@ h2 {
 
 .cards-items {
     display: flex;
-    gap: 6rem;
+    gap: 1.8rem;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .card {

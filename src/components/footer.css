@@ -1,0 +1,60 @@
+footer {
+    width: 100%;
+    padding: 24px 130px;
+    display: flex;
+    background-color: #EBEEEF;
+    gap: 4rem;
+    justify-content: space-between;
+}
+
+.links-div {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.links-div h4 {
+    font-size: 1.6rem;
+    color: #002F34;
+    font-weight: 600;
+}
+
+.links-div ul li {
+    list-style: none;
+    font-size: 1.4rem;
+    color: gray;
+    margin-bottom: 1.2rem;
+}
+
+.links-div ul li:hover {
+    color: #002F34;
+}
+
+.follow-sec {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.social-media-links p {
+    font-size: 1.6rem;
+    color: #002F34;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
+
+.social-media-links img {
+    width: 2.8rem;
+    cursor: pointer;
+    margin-right: 1.3rem;
+}
+
+.download-sec{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.download-sec img {
+    width: 8.4rem;
+    cursor: pointer;
+}

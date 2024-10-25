@@ -12,6 +12,9 @@ import {VideoSec} from './components/cards-sec/video-sec';
 import {TabletSec} from './components/cards-sec/tablets-sec';
 import {PlotsSec} from './components/cards-sec/plot-sec';
 import { JobsSec } from './components/cards-sec/jobs-sec';
+import { Appfooter } from './components/app-footer';
+import { Footer } from './components/footer';
+import { CopySec } from './components/copy-sec';
 
 function App() {
   return (
@@ -30,6 +33,9 @@ function App() {
       <TabletSec />
       <PlotsSec />
       <JobsSec />
+      <Appfooter />
+      <Footer />
+      <CopySec />
     </section>
   );
 }

@@ -5,7 +5,7 @@ export const Navbar = () => {
     return (
         <nav>
             <ul>
-                <li>All CATEGORIES</li>
+                <li className="first-child">All CATEGORIES</li>
                 <li>Mobile Phones</li>
                 <li>Cars</li>
                 <li>MotorCycles</li>

@@ -28,6 +28,7 @@ export const Header = () => {
         </div>
         <div className="search">
             <Input type={"text"} placeholder={"Find Cars Mobile Phone & More....."} />
+            <i class="fa-solid fa-magnifying-glass"></i>
         </div>
         <div className="buttons">
             <Button text={"Login"} className={"login-btn"} />

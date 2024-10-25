@@ -1,6 +1,6 @@
 nav {
     width: 100%;
-    padding: 24px 150px;
+    padding: 24px 130px;
 }
 
 nav ul {
@@ -12,7 +12,6 @@ nav ul li {
     font-size: 1.7rem;
     font-weight: 300;
 }
- 
-li:first-child{
+.first-child{
     font-weight: bold;
 }
